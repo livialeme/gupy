@@ -1,0 +1,27 @@
+// Define o número a ser verificado
+const numberToCheck = 34;
+
+// Inicia a sequência com os valores iniciais
+let fibonacci = [0, 1];
+
+// Loop para calcular os próximos valores da sequência
+for (let i = 2; i <= numberToCheck; i++) {
+  fibonacci[i] = fibonacci[i - 
+  fibonacci[i] = fibonacci
+
+ 
+1] + fibonacci[i - 2];
+}
+
+// Verifica se o número informado pertence à sequência
+if (fibonacci.includes(numberToCheck)) {
+  
+ 
+console.log(`${numberToCheck} pertence à sequência de Fibonacci.`);
+} 
+}
+else {
+  
+ 
+console.log(`${numberToCheck} não pertence à sequência de Fibonacci.`);
+}
